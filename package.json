@@ -1,0 +1,13 @@
+{
+  "name": "anki-bridge",
+  "version": "1.0.0",
+  "description": "BLE controller and WebSocket bridge for Anki Overdrive",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "noble": "^1.9.2-15",
+    "ws": "^8.0.0"
+  }
+}
